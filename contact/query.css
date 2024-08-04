@@ -1,0 +1,15 @@
+@media(max-width: 63em){
+    .the-inputs{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 28em){
+    .modal{
+        width: 90%;
+        padding: 1rem;
+    }
+    .query-text{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Furniking is a newcore project for frontend mentorship to mock an e-commerce site using HTML, CSS, javascript. The site is built by Newcore Technologies, Inc. (07060499261)"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script type="module" src="/js/script.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <p class="welcome">Welcome to our online shop</p>
+        <div class="engbox">
+          <div class="engDrop">
+            <p class="eng">English (USD)</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <span></span>
+          <p class="logBox">Login or Sign up</p>
+        </div>
+      </header>
+
+      <div class="logoline">
+        <img
+          src="img/furniking-high-resolution-logo-transparent (1).png"
+          alt=" furniking logo"
+          class="logo"
+        />
+
+        <div class="searchBox">
+          <input type="text" placeholder="Search here" class="search-input" />
+          <select name="" id="" class="categories">
+            <option value="" class="category">Category</option>
+            <option value="" class="category">table</option>
+            <option value="" class="category">chair</option>
+            <option value="" class="category">rug</option>
+          </select>
+          <div class="search-icon-box">
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          </div>
+        </div>
+
+        <div class="iconBox">
+          <ion-icon class="logoLine-icon" name="bag-outline"></ion-icon>
+          <ion-icon
+            class="logoLine-icon"
+            name="notifications-outline"
+          ></ion-icon>
+          <ion-icon class="logoLine-icon" name="person-outline"></ion-icon>
+        </div>
+      </div>
+
+      <div class="navline">
+        <div class="collection">
+          <ion-icon class="nav-open" name="menu"></ion-icon>
+          <ion-icon class="nav-close" name="close"></ion-icon>
+          <h3 class="all-collection">All Collections</h3>
+        </div>
+        <ul class="main-nav-list">
+          <li><a class="nav-list" href="">HOME</a></li>
+          <li><a class="nav-list" href="">SHOP</a></li>
+          <li><a class="nav-list" href="">BLOG</a></li>
+          <li><a class="nav-list" href="">ABOUT</a></li>
+          <li><a class="nav-list" href="contact/sign.html">CONTACT US</a></li>
+        </ul>
+      </div>
+
+      <div class="bannerLine">
+        <div class="collections">
+          <ul class="collection-main-list">
+            <li class="collection-list">All</li>
+            <li class="collection-list">New Arrivals</li>
+            <li class="collection-list">Hot Sale</li>
+            <li class="collection-list">Furniture</li>
+            <li class="collection-list">Armature</li>
+            <li class="collection-list">Table</li>
+            <li class="collection-list">Chair</li>
+            <li class="collection-list">Sofa</li>
+            <li class="collection-list">Mirror</li>
+            <li class="collection-list">Stools</li>
+            <li class="collection-list">Benches</li>
+          </ul>
+        </div>
+
+        <div class="bannerBox">
+          <div class="banner-description">
+            <p class="top">top collection 2022</p>
+            <p class="deserve">We serve your dream furniture</p>
+            <p class="get">Get 50% off all products</p>
+            <a href="#" class="shop-now">SHOP NOW</a>
+          </div>
+
+          <img src="img/chair-1.png" alt="banner chair" class="banner-chair" />
+
+          <div class="small-chairs">
+            <div class="small-chair-box">
+              <img src="img/chair-2.png" alt="" class="chairs" />
+              <p class="no"><span class="dollar">$</span>120</p>
+              <label for="" class="chair-label">office desk chair</label>
+            </div>
+
+            <div class="small-chair-box">
+              <img src="img/chair-3.png" alt="" class="chairs" />
+              <p class="no"><span class="dollar">$</span>120</p>
+              <label for="" class="chair-label">Home Alisa Sofa</label>
+            </div>
+
+            <div class="small-chair-box">
+              <img src="img/chair-4.png" alt="" class="chairs" />
+              <p class="no"><span class="dollar">$</span>120</p>
+              <label for="" class="chair-label">Modern Chair</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <div class="shipping">
+          <ion-icon class="feature-logo" name="airplane-outline"></ion-icon>
+          <div class="words">
+            <p class="free">Free Shipping</p>
+            <p class="order">order over <span>$100</span></p>
+          </div>
+        </div>
+
+        <div class="shipping">
+          <ion-icon class="feature-logo" name="gift-outline"></ion-icon>
+          <div class="words">
+            <p class="free">Smart Gift Card</p>
+            <p class="order">Buy <span>$1000</span> to get card</p>
+          </div>
+        </div>
+
+        <div class="shipping">
+          <ion-icon class="feature-logo" name="wallet-outline"></ion-icon>
+          <div class="words">
+            <p class="free">Quick Payment</p>
+            <p class="order"><span>100%</span> secure payment</p>
+          </div>
+        </div>
+
+        <div class="shipping">
+          <ion-icon class="feature-logo" name="headset-outline"></ion-icon>
+          <div class="words">
+            <p class="free">24/7 support</p>
+            <p class="order">Quick support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="offer">
+        <div class="modern">
+          <div class="edit">
+            <p class="mor">Modern Furniture collections</p>
+            <p class="star">Starting From <span class="five">$500</span></p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="geometric">
+          <div class="edit">
+            <p class="mor">Geometric Bookcase</p>
+            <p class="star">Up to <span>20%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="minimal">
+          <div class="edit">
+            <p class="mor">Minimal Sofa Collection</p>
+            <p class="star">Sale upto <span>40%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending">
+      <h2 class="section-header">TRENDING</h2>
+      <div class="top-product">
+        <p class="top-trending top-active">Top Trending</p>
+        <p class="top-trending">New Arrival</p>
+        <p class="top-trending">Best Sellers</p>
+      </div>
+
+      <div class="order-grid">
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specials">
+      <h3 class="section-header">SPECIAL OFFER</h3>
+      <div class="specially">
+        <div class="special s-one">
+          <h3 class="type">Living Room Furniture</h3>
+          <p class="details">
+            You don't have a chair. Are you ready for growth? Shop with us 40%
+            discount!
+          </p>
+          <div class="shop">
+            <span class="current-price price">$180</span>
+            <span class="crossed-price price">$250</span>
+            <div>SHOP NOW</div>
+          </div>
+          <div class="time">
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+          </div>
+          <div class="tag off">40% 0ff</div>
+        </div>
+
+        <div class="special s-two">
+          <h3 class="type">Modern chair</h3>
+          <p class="details">
+            Hot chairs of the modern era are now available in our stock.
+          </p>
+          <div class="shop">
+            <span class="current-price price">$180</span>
+            <span class="crossed-price price">$250</span>
+            <div>SHOP NOW</div>
+          </div>
+          <div class="time">
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+            <div class="timer">
+              <h3>10</h3>
+              <p>DAYS</p>
+            </div>
+          </div>
+          <div class="tag off">40% 0ff</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending">
+      <h2 class="section-header">OUR PRODUCT</h2>
+      <div class="top-product">
+        <p class="top-trending top-active">All Products</p>
+        <p class="top-trending">Best Sellers</p>
+        <p class="top-trending">New Arrival</p>
+        <p class="top-trending">Todays Deals</p>
+      </div>
+
+      <div class="order-grid">
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-5.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="newtag tag">New</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+        <div class="order-box">
+          <img src="img/chair-6.jpeg" alt="" />
+          <p class="label">chair</p>
+          <p class="spec-text">Minimal LCD Chair</p>
+          <div class="price-area">
+            <div class="prices">
+              <span class="current-price price">$180</span>
+              <span class="crossed-price price">$250</span>
+            </div>
+            <div class="stars">
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="saletag tag">Sale</div>
+        </div>
+      </div>
+
+      <div class="pagify-box">
+        <div class="pagify">
+          <a href="" class="next">Next page &rarr;</a>
+          <div class="pages">
+            <p class="page-text">Page</p>
+            <input type="text" value="1" class="page-input" />
+            <p class="page-text">of 100</p>
+            <div class="icon-box">
+              <ion-icon
+                class="page-icon"
+                name="chevron-back-outline"
+              ></ion-icon>
+              <ion-icon
+                class="page-icon"
+                name="chevron-forward-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimony">
+      <h2 class="what">WHAT OUR CUSTOMER SAYS</h2>
+      <div class="slide-box">
+        <div class="slide slide--0">
+          <img src="img/slider-1.jfif" alt="" class="slide-img" />
+          <p class="slide-testimony">
+            We love Furniking.com and as compared to other company it's polices
+            and customers support is very good easy to reach., also many time
+            they unable to delivered. The ultricies are pregnant while the quis
+            is suspended. Risus commodo viverra maecenas accumsan lacus vel
+            facilisist amet.
+          </p>
+          <p class="slide-author">Mrs Taiwo Hassan</p>
+          <p class="slide-title">Co- founder</p>
+        </div>
+        <div class="slide slide--1">
+          <img src="img/slider-1.jfif" alt="" class="slide-img" />
+          <p class="slide-testimony">
+            I like Furniking.com and as compared to other company it's polices
+            and customers support is very good easy to reach., also many time
+            they unable to delivered. The ultricies are pregnant while the quis
+            is suspended. lorem fawaz viraroo maecenas accumsan lacus vel
+            facilisist amet.
+          </p>
+          <p class="slide-author">Mrs twich victor</p>
+          <p class="slide-title">sales manager</p>
+        </div>
+        <div class="slide slide--2">
+          <img src="img/slider-1.jfif" alt="" class="slide-img" />
+          <p class="slide-testimony">
+            I like Furniking.com and as compared to other company it's polices
+            and customers support is very good easy to reach., also many time
+            they unable to delivered. The ultricies are pregnant while the quis
+            is suspended. Risus commodo viverra maecenas accumsan lacus vel
+            facilisist amet.
+          </p>
+          <p class="slide-author">Mrs Taiwo Hassan</p>
+          <p class="slide-title">Co- founder</p>
+        </div>
+        <div class="slide slide--3">
+          <img src="img/slider-1.jfif" alt="" class="slide-img" />
+          <p class="slide-testimony">
+            I like Furniking.com and as compared to other company it's polices
+            and customers support is very good easy to reach., also many time
+            they unable to delivered. The ultricies are pregnant while the quis
+            is suspended. Risus commodo viverra maecenas accumsan lacus vel
+            facilisist amet.
+          </p>
+          <p class="slide-author">Mrs Taiwo Hassan</p>
+          <p class="slide-title">Co- founder</p>
+        </div>
+        <button class="slide-btn slide-left">
+          <ion-icon class="slide-icon" name="chevron-back-outline"></ion-icon>
+        </button>
+        <button class="slide-btn slide-right">
+          <ion-icon
+            class="slide-icon"
+            name="chevron-forward-outline"
+          ></ion-icon>
+        </button>
+      </div>
+    </section>
+
+    <section class="article">
+      <h2 class="what">OUR LATEST ARTICLE</h2>
+      <div class="articles">
+        <div class="article-1">
+          <div class="edit">
+            <p class="mor">Geometric Bookcase</p>
+            <p class="star">Up to <span>20%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="article-1">
+          <div class="edit">
+            <p class="mor">Minimal Sofa Collection</p>
+            <p class="star">Sale upto <span>40%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+        <div class="article-1">
+          <div class="edit">
+            <p class="mor">Minimal Sofa Collection</p>
+            <p class="star">Sale upto <span>40%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+        <div class="article-1">
+          <div class="edit">
+            <p class="mor">Minimal Sofa Collection</p>
+            <p class="star">Sale upto <span>40%</span> discount</p>
+            <a class="read" href="">read more <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-grid">
+        <div class="footer-icon-box">
+          <img
+            src="img/furniking-high-resolution-logo-transparent (1).png"
+            alt=" furniking logo"
+            class="footer-logo"
+          />
+          <p class="footer-text">
+            Furniking is the a popular Ecommerce site. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor
+          </p>
+          <div class="social-media">
+            <ion-icon class="footer-icon" name="logo-facebook"></ion-icon>
+            <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
+            <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+            <ion-icon class="footer-icon" name="logo-pinterest"></ion-icon>
+          </div>
+        </div>
+        <div class="help">
+          <ul class="footer-main-list">
+            <li class="footer-list">Help</li>
+            <li class="footer-list">Privacy Policy</li>
+            <li class="footer-list">Shipping & Delivery</li>
+            <li class="footer-list">Refund Policy</li>
+            <li class="footer-list">Track Your Order</li>
+          </ul>
+        </div>
+        <div class="help">
+          <ul class="footer-main-list">
+            <li class="footer-list">Store</li>
+            <li class="footer-list">Furniture</li>
+            <li class="footer-list">Table</li>
+            <li class="footer-list">Sofa</li>
+            <li class="footer-list">Other</li>
+          </ul>
+        </div>
+        <div class="help">
+          <ul class="footer-main-list">
+            <li class="footer-list">Support</li>
+            <li class="footer-list">Feedback</li>
+            <li class="footer-list">Contact Us</li>
+            <li class="footer-list">Download app</li>
+            <li class="footer-list">Terms & conditions</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="second-footer">
+        <p class="sec-footer">
+          Copyright &copy; <span class="year">2024</span> by Newcore
+          Technologies, Inc. All rights reserved(07060499261).
+        </p>
+        <div class="privacy">
+          <p class="terms">Privacy</p>
+          <p class="terms">Security</p>
+          <p class="terms">Terms</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal hidden">
+      <div class="close">X</div>
+      <div class="modal-form sign-up-box hidden">
+        <h2 class="sign-up">Sign Up</h2>
+        <div class="input-div">
+          <input
+            class="modal-input firstname"
+            type="text"
+            placeholder="firstname"
+          />
+          <input
+            class="modal-input lastname"
+            type="text"
+            placeholder="lastname"
+          />
+          <input
+            class="modal-input mail"
+            type="email"
+            placeholder="your email"
+          />
+          <select class="modal-input" name="" id="gender">
+            <option value="">Gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+          <input
+            class="modal-input password"
+            type="password"
+            placeholder="create password"
+          />
+          <input
+            class="modal-input confirm-password"
+            type="password"
+            placeholder="confirm password"
+          />
+        </div>
+        <button class="join-us sign-up-btn">Join us</button>
+        <div class="modal-buttom">
+          <div class="sign-in-link">
+            <p>you already have an account</p>
+            <a class="sign-in" id="login-link" href="">sign in</a>
+          </div>
+          <!-- <a class="forgot-password" href="">forgot password</a> -->
+        </div>
+      </div>
+      <div class="modal-form login-box">
+        <h2 class="sign-up">Sign In</h2>
+        <div class="input-div input-div-sign-in">
+          <input
+            class="modal-input login-mail"
+            type="email"
+            placeholder="your email"
+          />
+          <input
+            class="modal-input login-password"
+            type="password"
+            placeholder="create password"
+          />
+        </div>
+        <button class="join-us login-btn">Login</button>
+        <div class="modal-buttom">
+          <div class="sign-in-link">
+            <a class="sign-in" id="create-account-link" href=""
+              >create account</a
+            >
+          </div>
+          <a class="forgot-password" href="">forgot password</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay hidden"></section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

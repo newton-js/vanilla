@@ -1,0 +1,336 @@
+@media(max-width: 71em){
+
+    html{
+        font-size: 56.25%;
+    }
+
+    .collection{
+        padding: 0 1rem;
+    }
+
+    .deserve {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .get {
+        font-size: 1.7rem;
+        line-height: 2.6rem;
+        color: #515151b5;
+        margin-bottom: 3rem;
+    }
+
+    .header, .logoline, .navline, .bannerLine, .features, .offers, .trending, .specials, .testimony, .article, .footer {
+        max-width: 155rem;
+        padding: 0 5.5rem;
+    }
+ 
+
+}
+
+
+
+@media(max-width: 62em){
+    .header{
+        font-size: 1.2rem;
+    }
+
+    .searchBox{
+        width: 50%;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+
+    .collection{
+        justify-content: none;
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 54em){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 48rem ){
+    .header{
+        font-size: 2rem;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .bannerBox{
+        padding: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-description{
+        padding-left: 3rem;
+    }
+
+    .small-chairs{
+        display: none;
+    }
+
+    .type {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 45rem){
+    .main-nav-list{
+        width: 80%;
+    }
+
+    .collections{
+        width: 40%;
+        position: absolute;
+        background-color: #f7f8fa;
+        color: #555;
+        z-index: 999;
+        display: none;
+    } 
+
+    .collection ion-icon[name ="menu"]{
+        display: block;
+      }
+
+    .bannerBox{
+        grid-column: span 2;
+    }
+
+    .feature-logo {
+        font-size: 4.4rem;
+    }
+
+    .collection{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+    }
+
+    .all-collection{
+        display: none;
+    }
+
+    .modal{
+        height: 60rem;
+    }
+
+    .input-div{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 40rem) {
+    .header, .logoline, .navline, .bannerLine, .features, .offers, .trending, .specials, .testimony, .article, .footer {
+        max-width: 155rem;
+        padding: 0 1.5rem;
+    }
+
+    .feature-logo{
+        font-size: 3rem;
+    }
+
+    .order-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .specially{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .label{
+        font-size:2rem ;
+    }
+
+    .spec-text{
+        font-size: 2rem;
+    }
+
+    .details {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .footer-logo{
+        width: 70%;
+        height: 3rem;
+    }
+
+    .free{
+        font-size: 1.2rem;
+    }
+
+    .order{
+        font-size: 1.2rem;
+    }
+
+    
+
+}
+
+
+@media(max-width: 34rem){
+    
+    .feature-logo{
+        font-size: 2rem;
+    }
+
+    .free{
+        font-size: 1.4rem;
+        line-height: 1rem;
+    }
+
+    .testimony{
+        margin-bottom: 48rem;
+    }
+
+}
+
+
+
+@media(max-width: 31rem){
+    .header{
+        font-size: 1.4rem;
+    }
+
+    .iconBox{
+        gap: 4px;
+    }
+
+    .logoLine-icon {
+        width: 2rem;
+        height: 2rem;
+        color: #555555;
+    }
+
+    .feature-logo{
+        font-size: 1.7rem;
+    }
+
+    .free{
+        font-size: 1.1rem;
+        line-height: 0.7rem;
+    }
+
+    .shipping{
+        gap: 0;
+    }
+
+    .top-trending{
+        font-size: 1.8rem;
+    }
+
+    .type {
+        font-size: 2.5rem;
+    }
+
+    .details{
+        font-size: 2rem;
+    }
+
+    
+}
+
+@media (max-width: 27rem){
+
+    .features{
+        margin-bottom: 12rem;
+    }
+
+    .feature{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 8px;
+    }
+
+    .feature-logo{
+        font-size: 3rem;
+    }
+
+    .shipping{
+        gap: 2rem;
+    }
+
+    .free{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .order{
+        font-size: 2rem;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5rem;
+    }
+
+    .footer-logo{
+        height: 5rem;
+    }
+}
+
+@media(max-width: 23rem){
+    
+    .header{
+        font-size: 1.4rem;
+    }
+
+    .logo{
+        width: 27%;
+    }
+
+    .categories{
+        display: none;
+    }
+
+    .iconBox {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+      
+    .logoLine-icon {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .features{
+        margin-bottom: 12rem;
+    }
+
+    .offer{
+        grid-template-columns: 1fr;
+    }
+
+    .testimony{
+        margin-bottom: 65rem;
+    }
+
+    .second-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 0;
+    }
+
+    .order-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .bannerBox{
+        grid-template-columns: 1fr;
+    }
+}
+
